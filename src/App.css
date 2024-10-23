@@ -1,0 +1,49 @@
+#root {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: #f0f0f0; /* Fondo gris claro */
+  padding: 20px;
+}
+
+h1 {
+  color: #101010; 
+}
+h3 {
+  color:  #101010; 
+}
+p {
+  color:  #101010; 
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.character-card {
+  background-color: white; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  margin: 10px; 
+  padding: 10px; 
+  width: 200px;
+ 
+}
+
+.character-card img {
+  max-width: 100%; 
+
+}
+
+
+
